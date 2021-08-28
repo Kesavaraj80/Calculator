@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
 body{
     background-image: linear-gradient(to right top, #8af8f1, #74ebf6, #68ddfa, #68cefa, #72bef5, #71bdf3, #6fbbf2, #6ebaf0, #62c7f1, #61d2ed, #6bdde7, #7fe6df);
     height: 100vh;
@@ -13,50 +15,55 @@ body{
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 1px -1px 14px -1px rgba(0,0,0,0.62);
-    background: transparent;
+    background: white;
 }
 .input1{
     width:30rem;
     height: 6rem;
     border: none;
-    background-color: grey;
-    font-size: 2rem;
-    background: transparent;
+    background-color:lightgrey;
+    font-size: 2.5rem;
+    border-bottom: 1px black solid;
+    text-decoration: none;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+.btns{
+    background:white;
+    margin-top: 5px;
 }
 .btn{
-    border: 1px lightcyan;
-    height: 6.8rem;
+    border:none;
+    height: 5.54rem;
     width: 7.3rem;
     margin: 0;
-    padding:0;
+    padding: 0;
     font-size: 2rem;
-    border-radius: 80px;
     background: transparent;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-weight: 100;
 }
 @media screen and (max-width: 480px){
     .main-box{
-        height: 30rem;
+        height: 32rem;
         width: 20rem;
         background: white;
         border-radius: 10px;
         overflow: hidden;
         box-shadow: 1px -1px 14px -1px rgba(0,0,0,0.62);
-        background: transparent;
+        background: white;
     }
     .input1{
         width:20rem;
-        height: 4rem;
+        height: 5rem;
         border: lightcyan 1 px;
-        background: transparent;
+        background-color:lightgrey;
         font-size: 1.5rem;
     }
     .btn{
-        border: 1px lightcyan solid;
-        height: 4.5rem;
-        width: 4rem;
-        margin: 5px;
+        border: none;
+        height: 4.38rem;
+        width: 4.78rem;
         font-size: 1rem;
-        border-radius: 80px;
         background: transparent;
     }
 }
